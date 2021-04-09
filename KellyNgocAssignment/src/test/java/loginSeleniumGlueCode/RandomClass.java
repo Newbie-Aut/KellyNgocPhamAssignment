@@ -7,7 +7,7 @@ public class RandomClass {
 	public int RandomNumber() {
 
 		Random rand = new Random();
-		int upperbound = 10;
+		int upperbound = 70;
 		int random_int = rand.nextInt(upperbound);
 		return random_int;
 	}
